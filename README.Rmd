@@ -1,0 +1,90 @@
+---
+title: "EAVE II Data Dictionary"
+author: "EAVE II Analysts"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  github_document:
+    number_sections: true
+
+---
+```{r setup, message=FALSE, warning=FALSE, echo=F, include=T}
+
+library(readxl)
+library(tidyverse)
+library(knitr)
+options(kableExtra.auto_format = FALSE)
+library(kableExtra)
+
+```
+
+```{r logo, echo=F}
+htmltools::img(src = image_uri(file.path("./logo/EAVEII logo.png")),
+               style="position:absolute; top:0; right:0; padding:10px; width:200px;")
+
+```
+
+```{r data_load, results='asis', message=FALSE, warning=FALSE, echo=F, include=T}
+read_excel_allsheets <- function(filename, tibble = FALSE) {
+  # I prefer straight data.frames
+  # but if you like tidyverse tibbles (the default with read_excel)
+  # then just pass tibble = TRUE
+  sheets <- excel_sheets(filename)
+  x <- lapply(sheets, function(X) readxl::read_excel(filename, sheet = X))
+  if(!tibble) x <- lapply(x, as.data.frame)
+  names(x) <- sheets
+  x
+  
+}
+
+data_dictionary <- read_excel_allsheets(filename= ("./data_dictionary/data_dictionary.xlsx"))
+
+
+
+```
+
+
+
+
+```{r metadata_loop, results='asis',message=FALSE, warning=FALSE, echo=F}
+# Create a loop that takes each sheet individually, extracts the sheet name (for header) and
+# reformats excel spreadsheet so it can reformat it into R Markdown document
+
+for(j in 2:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to the rest of the sheets
+  
+  # Extract baseline information from sheet
+  h1 <- names(data_dictionary[j]) # The sheet name will be header 1 (h1)
+  data_input <- data_dictionary[[j]] # Extract data from list as a dataframe (requires [[]])
+  
+  # Assigns header 1 (h1) as the sheet name to rmd
+  cat("\n# ", h1, "\n")
+  
+  # Create inner loop to create table from rows
+  for(i in 1:nrow(data_input)){
+    # Create header 2 (h2) using the format: Label (variable name)
+    h2 <- paste(data_input$Label[i], " (",data_input$Name[i],")",sep="")
+    # Assign h2 to rmd
+    cat(paste0("\n## ", h2, "\n"))
+    
+    # Create metadata table with:
+    # - Variable description
+    # - Variable type
+    # - Variable values
+    # - Comments
+    metadata_tbl <- tibble(info = c("Description", "Type", "Value(s)", "Comments"),
+           info_fill = c(data_input$Description[i], data_input$Type[i], 
+                         data_input$Values[i], data_input$Comments[i])) %>%
+      kbl(col.names = NULL) %>%
+      kable_styling(c("striped"), full_width = F, position = "left") %>%
+      column_spec(1, bold=T)
+    
+    print(metadata_tbl)
+    
+  }
+
+
+  
+}
+
+```
+
+
