@@ -1,7 +1,7 @@
 EAVE II Data Dictionary
 ================
 EAVE II Analysts
-09 December, 2020
+11 December, 2020
 
 <!--html_preserve-->
 
@@ -41,7 +41,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -115,7 +115,7 @@ Type
 
 <td style="text-align:left;">
 
-Integer
+integer
 
 </td>
 
@@ -189,7 +189,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -231,7 +231,7 @@ NA
 
 </table>
 
-## 1.4 SIMD (simd2020\_sc\_quintile)
+## 1.4 SIMD Quintile (simd2020\_sc\_quintile)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -247,8 +247,7 @@ Description
 
 <td style="text-align:left;">
 
-Scotland Level quintiles for Deprivation ‘Scottish Index of Multiple
-Deprivation’
+Scottish Index of Multiple Deprivation (SIMD) Quintile (2020)
 
 </td>
 
@@ -264,7 +263,7 @@ Type
 
 <td style="text-align:left;">
 
-Integer
+integer
 
 </td>
 
@@ -338,7 +337,7 @@ Type
 
 <td style="text-align:left;">
 
-Integer
+integer
 
 </td>
 
@@ -412,7 +411,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -487,7 +486,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -563,7 +562,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -642,7 +641,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -675,6 +674,82 @@ Comments
 <td style="text-align:left;">
 
 NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 2.2 Diagnosis (GP cluster) (diag)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Medical diagnosis, clinical indicators and other health-related
+characteristics
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+EAVEII\_dd\_gp\_clusters.xlsx
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+Individuals are included in a cluster based on specific combinations of
+demographics, clinical codes. DMD codes and date filters.
 
 </td>
 
@@ -718,7 +793,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -792,7 +867,7 @@ Type
 
 <td style="text-align:left;">
 
-Integer
+integer
 
 </td>
 
@@ -866,7 +941,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -940,7 +1015,7 @@ Type
 
 <td style="text-align:left;">
 
-Integer
+integer
 
 </td>
 
@@ -1014,7 +1089,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -1072,7 +1147,7 @@ Description
 
 <td style="text-align:left;">
 
-Post Code
+Postcode
 
 </td>
 
@@ -1088,7 +1163,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -1162,7 +1237,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -1204,7 +1279,7 @@ NA
 
 </table>
 
-## 3.8 Date of specimen (SpecimenDate)
+## 3.8 date of specimen (Specimendate)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -1220,7 +1295,7 @@ Description
 
 <td style="text-align:left;">
 
-Date of specimen collection?
+date of specimen collection?
 
 </td>
 
@@ -1236,7 +1311,7 @@ Type
 
 <td style="text-align:left;">
 
-Date
+date
 
 </td>
 
@@ -1310,7 +1385,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -1352,7 +1427,7 @@ NA
 
 </table>
 
-## 3.10 Novel Coronavirus result (NCOV\_RESULT)
+## 3.10 COVID-19 result (NCOV\_RESULT)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -1384,7 +1459,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -1458,7 +1533,7 @@ Type
 
 <td style="text-align:left;">
 
-Integer
+integer
 
 </td>
 
@@ -1500,7 +1575,7 @@ NA
 
 </table>
 
-## 3.12 NA (SpecimenOrigin)
+## 3.12 Origin of specimen (SpecimenOrigin)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -1532,7 +1607,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -1576,7 +1651,7 @@ NA
 
 </table>
 
-## 3.13 NA (EcossDateReceived)
+## 3.13 ECOSS date (EcossdateReceived)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -1592,7 +1667,7 @@ Description
 
 <td style="text-align:left;">
 
-Date of laboratory result received by ECOSS?
+date of laboratory result received by ECOSS?
 
 </td>
 
@@ -1608,7 +1683,7 @@ Type
 
 <td style="text-align:left;">
 
-Date
+date
 
 </td>
 
@@ -1650,7 +1725,7 @@ NA
 
 </table>
 
-## 3.14 NA (SubLab)
+## 3.14 Sub lab (SubLab)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -1682,7 +1757,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -1726,7 +1801,7 @@ NA
 
 </table>
 
-## 3.15 NA (SourceLab)
+## 3.15 Source lab (SourceLab)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -1758,7 +1833,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -1804,7 +1879,7 @@ NA
 
 </table>
 
-## 3.16 NA (Category)
+## 3.16 Category (Category)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -1836,7 +1911,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -1878,7 +1953,7 @@ NA
 
 </table>
 
-## 3.17 NA (KEYEMPLOYER)
+## 3.17 Key employer (KEYEMPLOYER)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -1910,7 +1985,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -1952,7 +2027,7 @@ NA
 
 </table>
 
-## 3.18 NA (KEYWORKERTYPE)
+## 3.18 Key employer type (KEYWORKERTYPE)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -1984,7 +2059,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -2026,7 +2101,7 @@ NA
 
 </table>
 
-## 3.19 NA (CAREHOMEID)
+## 3.19 Care home ID (CAREHOMEID)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2058,7 +2133,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -2100,7 +2175,7 @@ NA
 
 </table>
 
-## 3.20 NA (NRS.Reg.Date)
+## 3.20 NRS registration date (NRS.Reg.date)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2132,7 +2207,7 @@ Type
 
 <td style="text-align:left;">
 
-Date
+date
 
 </td>
 
@@ -2174,7 +2249,7 @@ NA
 
 </table>
 
-## 3.21 NA (NRS.Date.Death)
+## 3.21 NRS death date (NRS.date.Death)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2206,7 +2281,7 @@ Type
 
 <td style="text-align:left;">
 
-Date
+date
 
 </td>
 
@@ -2248,7 +2323,7 @@ NA
 
 </table>
 
-## 3.22 NA (death28)
+## 3.22 Death within 28 days (death28)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2264,7 +2339,7 @@ Description
 
 <td style="text-align:left;">
 
-?
+Death within 28 days of ?
 
 </td>
 
@@ -2280,7 +2355,7 @@ Type
 
 <td style="text-align:left;">
 
-Integer
+integer
 
 </td>
 
@@ -2324,7 +2399,7 @@ NA
 
 # 4 Health Board Lookup
 
-## 4.1 NA (year)
+## 4.1 Year (year)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2356,7 +2431,7 @@ Type
 
 <td style="text-align:left;">
 
-Integer
+integer
 
 </td>
 
@@ -2398,7 +2473,7 @@ NA
 
 </table>
 
-## 4.2 NA (hb2019)
+## 4.2 Health Board code 2019 (hb2019)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2430,7 +2505,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -2474,7 +2549,7 @@ NA
 
 </table>
 
-## 4.3 NA (hb2019name)
+## 4.3 Health Board name 2019 (hb2019name)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2506,7 +2581,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -2551,7 +2626,7 @@ NA
 
 </table>
 
-## 4.4 NA (hb2018)
+## 4.4 Health Board code 2018 (hb2018)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2583,7 +2658,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -2627,7 +2702,7 @@ NA
 
 </table>
 
-## 4.5 NA (hb2014)
+## 4.5 Health Board code 2014 (hb2014)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2659,7 +2734,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -2703,7 +2778,7 @@ NA
 
 </table>
 
-## 4.6 NA (age)
+## 4.6 Age (age)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2735,7 +2810,7 @@ Type
 
 <td style="text-align:left;">
 
-Integer
+integer
 
 </td>
 
@@ -2777,7 +2852,7 @@ NA
 
 </table>
 
-## 4.7 NA (sex)
+## 4.7 Sex (number) (sex)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2809,7 +2884,7 @@ Type
 
 <td style="text-align:left;">
 
-Integer
+integer
 
 </td>
 
@@ -2851,7 +2926,7 @@ NA
 
 </table>
 
-## 4.8 NA (sex\_name)
+## 4.8 Sex (sex\_name)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2883,7 +2958,7 @@ Type
 
 <td style="text-align:left;">
 
-Character
+character
 
 </td>
 
@@ -2925,7 +3000,7 @@ NA
 
 </table>
 
-## 4.9 NA (pop)
+## 4.9 Population (pop)
 
 <table class="table table-striped" style="width: auto !important; ">
 
@@ -2957,7 +3032,7 @@ Type
 
 <td style="text-align:left;">
 
-Integer
+integer
 
 </td>
 
@@ -2990,6 +3065,5077 @@ Comments
 <td style="text-align:left;">
 
 NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+# 5 Severe cases
+
+## 5.1 EAVE Link Number (EAVE\_LINKNO)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Randomly assigned study index number
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE(7)digits (e.g. EAVE1234567)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.2 Source ID (source)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+source of ID (chi) most are from EAVE\_demographics some only found in
+ECOSS
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE\_DEMOG or ECOSS
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.3 Specimen date (SPECIMENdate)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+date in format yyyy-mm-dd
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.4 Postcode (CURRENT\_POSTCODDE)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+Postcode in pc7 format
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.5 ? (is.case)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+logic
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+TRUE/FALSE (should all be true)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.6 GP Practice Number (GP\_PRAC\_NO)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.7 date of death (date\_OF\_DEATH)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+date in format yyyy-mm-dd
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.8 COVID (covid\_ucod)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+binary 0/1
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.9 COVID (covid\_cod)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+binary 0/1
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.10 Death within 28 days (dead28)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+binary 0/1
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.11 ?? (RAPID)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+in RAPID dataset?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+binary 0/1
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.12 In hospital (inhosp)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+in hospital at time of test
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+binary 0/1
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.13 ICU admission (icu)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+binary 0/1
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.14 HDU admission (hdu)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+binary 0/1
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.15 ICU admission date (ICU\_date)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+date admitted to ICU
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+date in format yyyy-mm-dd
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.16 Days to ICU (days\_to\_icu)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+days from test to admission to icu
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+any +ve value
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.17 Hospital admission date (admission.date)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+date admitted to hospital
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+date in format yyyy-mm-dd
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 5.18 Days to hospital (days\_2\_hosp)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+days from test to admission to hospital
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+any +ve value (if testedbefore admission, value changed to 0)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+# 6 Household lookup
+
+## 6.1 EAVE Link Number (EAVE\_LINKNO)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Randomly assigned study index number
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE(7)digits (e.g. EAVE1234567)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 6.2 Address change date (March) (date\_address\_changed.x)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+date address last changed (march)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+date as number yyyymmdd
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+date address last changed (march)
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 6.3 Address change data (September) (date\_address\_changed.y)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+date address last changed (sept)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+date as number yyyymmdd
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+date address last changed (sept)
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 6.4 Household ID (March) (March\_hid)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Household ID number (valid for March CHILI extract)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+hid = 0 means no household info avalible
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 6.5 Number of ID’s in household (March) (March\_hid\_count)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+N persons in household (March)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+hid with large membership may represent institutons e.g. care homes,
+prisons etc
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 6.6 Move or transfer date (March) (March\_transfer\_out\_date)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+date moved out of scotland (from March CHILI extract)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+latest date de-registered as recorded in chili database in march 2020
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 6.7 Household ID (September) (Sept\_hid)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Household ID number (valid for september extract)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+hid = 0 means no household info avalible
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 6.8 Number of ID’s in household (September) (Sept\_hid\_count)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+N persons in household (September)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+hid with large membership may represent institutons e.g. care homes,
+prisons etc
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 6.9 Move or transfer date (September) (Sept\_transfer\_out\_date)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+date moved out of scotland (from September CHILI extract)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+latest date de-registered as recorded in chili database in Sept 2020
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+# 7 QCOVID
+
+## 7.1 NA (rowid)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+UID for batch processor file
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+n/a
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.2 NA (sex)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Sex
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:female; 1:male
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+This is usually biological sex at birth. There is insuffient data to
+model those who are intersex or trans, or indeed what the long term
+effect of hormone treatment etc on COVID risk for those who are
+biologically reassigned.
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.3 NA (age)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Age
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+19-100
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+The age in years at the search date
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.4 NA (b2\_82)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Have you been prescribed immunosuppressants prescribed by your GP
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+Prescribed four or more times in the previous 6 months
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.5 NA (b2\_leukolaba)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Are you taking anti-leukotriene or long acting beta2-agonists (LABA)?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+Prescribed four or more times in the previous 6 months
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.6 NA (b2\_prednisolone)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Have you been prescribed oral steroids by your GP in the last 6 months?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+oral predisolone containing preparations prescribed four or more times
+in the previous 6 months
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.7 NA (b\_AF)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have atrial fibrillation?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.8 NA (b\_CCF)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have heart failure?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.9 NA (b\_asthma)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have asthma?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.10 NA (b\_bloodcancer)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Have you a cancer of the blood or bone marrow such as leukaemia,
+myelodysplastic syndromes, lymphoma or myeloma and are at any stage of
+treatment?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.11 NA (b\_cerebralpalsy)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have cerebral palsy?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.12 NA (b\_chd)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have coronary heart disease?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.13 NA (b\_cirrhosis)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have cirrhosis of the liver?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.14 NA (b\_congenheart)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have congenital heart disease or have you had surgery for it in
+the past?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+The categorisation should be based either a Read code for congenital
+heart disease OR an HES OPCS code for surgery for congenital heart
+disease ever
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.15 NA (b\_copd)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have chronic obstructive pulmonary disease (COPD)?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.16 NA (b\_dementia)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have dementia?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.17 NA (b\_epilepsy)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have epilepsy?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.18 NA (b\_fracture4)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Have you had a prior fracture of hip, wrist, spine or humerus?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.19 NA (b\_neurorare)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have motor neurone disease, multiple sclerosis, myaesthenia, or
+Huntingtons’s Chorea?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.20 NA (b\_parkinsons)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have Parkinson’s disease?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.21 NA (b\_pulmhyper)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have pulmonary hypertension or pulmonary fibrosis?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.22 NA (b\_pulmrare)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have cystic fibrosis or bronchiectasis or alveolitis?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.23 NA (b\_pvd)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have peripheral vascular disease?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.24 NA (b\_ra\_sle)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have rheumatoid arthritis or SLE?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.25 NA (b\_respcancer)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have lung or oral cancer?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.26 NA (b\_semi)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have severe mental illness?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.27 NA (b\_sicklecelldisease)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have sickle cell disease or severe combined immune deficiency
+syndromes?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.28 NA (b\_stroke)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Have you had a stroke or TIA?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.29 NA (diabetes\_cat)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do ypou have diabetes?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:none; 1:Type 1; 2:Type 2
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+Some patients with diabetes will have codes for type 1 and type2 both
+recorded in their medical record. It is likely that the most recently
+recorded code is the most reliable. Therefore, to categorise patients
+into type 1 or type 2, then identify the latest code recorded in the
+medical record. If it is Type 1, then code the patient as type 1. If it
+is type 2, then code the patient as Type 2. If a patient has two codes
+(one for type 1 and one for type2) recorded on the same day and that is
+the latest recorded entry, then assume the patient is Type2. The final
+categorisation should ensure that patients are EITHER Type 1 or Type 2
+or neither.
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.30 NA (b\_vte)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Have you had a thrombosis or pulmonary embolus?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.31 NA (bmi)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Body Mass Index
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+double
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+double
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+The most recently recorded patient BMI within the last 5 years.
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.32 NA (chemocat)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Have you had chemotherapy in the last 12 months?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:none; 1: Group A; 2: Group B; 3: Group C
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+Chemotherapy prescribed in preceding 12 months as recorded on the
+Systemic Anti Cancer Treatment (SACT) data. Chemotherapy classified into
+3 cateogries (sheet 3)
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.33 NA (ethnicity)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+What is your ethnic group?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0 -\> 17
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+See separate table in this spreadsheet for the values needed for the
+batch processor. For the SDK, these values are represented as text
+within the Ethnicity type (sheet 2)
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.34 NA (homecat)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+what is your housing category - care home or homeless or neither?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0: neither; 1: care home; 2: homeless
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+The most recently recorded accommodation status recorded on GP record
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.35 NA (learncat)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have a learning disability or Down’s Syndrome?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0: neither; 1: learning disability; 2: Down’s
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+The most recorded recorded value. If some has a code both for learning
+disability and Downs, they should be coded as Downs
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.36 NA (p\_marrow6)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Have you had a bone marrow or stem cell transplant in the last 6 months?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.37 NA (p\_radio6)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Have you had radiotherapy in the last 6 months?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+coded as having radiotherapy in the preceding 6 months on either HES or
+RTDS
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.38 NA (p\_solidtransplant)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Have you had a solid organ transplant (lung, liver, somach, pancreas,
+spleen, heart or thymus)?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0:false; 1:true
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+coded as having solid organ transplant ever on HES
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.39 NA (renalcat)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Do you have kidney disease?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+0-\>5
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.40 NA (town)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+What is your postcode?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+double
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+double (nullable)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+If given for the batch processor, this takes priority over any postcode
+entered
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 7.41 NA (Postcode)
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+string
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Value(s)
+
+</td>
+
+<td style="text-align:left;">
+
+string (nullable)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Comments
+
+</td>
+
+<td style="text-align:left;">
+
+User interface and batch processor only. When using the SDK, get the
+corresponding Townsend score from the Townsend deprivation database. See
+example code for details.
 
 </td>
 
