@@ -5,9 +5,22 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   github_document:
     number_sections: true
-  fontsize: 10pt
 
 ---
+
+<style type="text/css">
+
+body, td {
+   font-size: 14px;
+}
+code.r{
+  font-size: 20px;
+}
+pre {
+  font-size: 20px
+}
+</style>
+
 ```{r setup, message=FALSE, warning=FALSE, echo=F, include=T}
 # Load in libraries 
 
@@ -57,18 +70,25 @@ for(i in 2:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to
   cat("\n# ", h1, "\n")
   
   ## Dataset information
+  # Header
+  cat("\n## ", "Data information", "\n")
+  
   metadata_row <- match(h1, main_tab$Data_source_name) # Match the row from the main tab (1st sheet)
   main_tab_input <- main_tab[metadata_row,] # Subset to the row in the main tab corresponding to the ith sheet
   
   metadata_tbl <- dataset_metadata_fn(main_tab_input) # # From 00_functions
   
   
+  
   ## Variable table
+  # Header
+  cat("\n## ", "Variable information", "\n")
+  
   variables_tbl <- variable_metadata_fn(data_input) # From 00_functions
 
-  ## Print dataset information and variable information
-  print(metadata_tbl, variables_tbl)
-    
+
+  
+
 
   
 }
