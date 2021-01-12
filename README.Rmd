@@ -5,6 +5,7 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   github_document:
     number_sections: true
+  fontsize: 10pt
 
 ---
 ```{r setup, message=FALSE, warning=FALSE, echo=F, include=T}
@@ -58,28 +59,14 @@ for(j in 2:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to
   # Assigns header 1 (h1) as the sheet name to rmd
   cat("\n# ", h1, "\n")
   
-  # Create inner loop to create table from rows
-  for(i in 1:nrow(data_input)){
-    # Create header 2 (h2) using the format: Label (variable name)
-    h2 <- paste(data_input$Label[i], " (",data_input$Name[i],")",sep="")
-    # Assign h2 to rmd
-    cat(paste0("\n## ", h2, "\n"))
-    
-    # Create metadata table with:
-    # - Variable description
-    # - Variable type
-    # - Variable values
-    # - Comments
-    metadata_tbl <- tibble(info = c("Description", "Type", "Value(s)", "Comments"),
-           info_fill = c(data_input$Description[i], data_input$Type[i], 
-                         data_input$Values[i], data_input$Comments[i])) %>%
-      kbl(col.names = NULL) %>%
-      kable_styling(c("striped"), full_width = F, position = "left") %>%
-      column_spec(1, bold=T)
-    
+  metadata_tbl <- data_input %>% kable() %>%
+      kable_styling(c("striped"), position = "left") %>%
+    column_spec(c(1,2,4), width = "1em") %>%
+    column_spec(c(3,5,6), width = "2em")
+  
     print(metadata_tbl)
     
-  }
+
 
 
   
