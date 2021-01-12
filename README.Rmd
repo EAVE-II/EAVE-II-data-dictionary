@@ -4,8 +4,6 @@ author: "EAVE II Analysts"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   github_document:
-    toc: true
-    toc_depth: 1
     number_sections: true
 
 ---
