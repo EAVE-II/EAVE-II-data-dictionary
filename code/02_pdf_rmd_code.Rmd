@@ -23,7 +23,8 @@ source(here("./code/00_functions.R"))
 
 ```{r logo, echo=F}
 htmltools::img(src = image_uri(file.path(here("./logo/EAVEII logo.png"))),
-               style="position:absolute; top:0; right:0; padding:10px; width:200px;")
+               #style="position:absolute; top:0; right:0; padding:10px; width:200px;"
+               )
 
 ```
 
