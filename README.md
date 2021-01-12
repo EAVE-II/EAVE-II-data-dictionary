@@ -3,18 +3,13 @@ EAVE II Data Dictionary
 EAVE II Analysts
 12 January, 2021
 
-<style type="text/css">
-
-body, td {
-   font-size: 14px;
-}
-code.r{
-  font-size: 20px;
-}
-pre {
-  font-size: 20px
-}
-</style>
+  - [1 GP Data Demographics](#gp-data-demographics)
+  - [2 GP Diagnostics](#gp-diagnostics)
+  - [3 ECOSS](#ecoss)
+  - [4 Health Board Lookup](#health-board-lookup)
+  - [5 Severe cases](#severe-cases)
+  - [6 Household identifier](#household-identifier)
+  - [7 QCOVID](#qcovid)
 
 <!--html_preserve-->
 

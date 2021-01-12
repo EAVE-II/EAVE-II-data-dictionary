@@ -4,22 +4,11 @@ author: "EAVE II Analysts"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   github_document:
+    toc: true
+    toc_depth: 1
     number_sections: true
 
 ---
-
-<style type="text/css">
-
-body, td {
-   font-size: 14px;
-}
-code.r{
-  font-size: 20px;
-}
-pre {
-  font-size: 20px
-}
-</style>
 
 ```{r setup, message=FALSE, warning=FALSE, echo=F, include=T}
 # Load in libraries 
