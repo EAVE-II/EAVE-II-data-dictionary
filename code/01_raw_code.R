@@ -21,14 +21,20 @@ options(knitr.table.format = "html")
 #tinytex::install_tinytex()
 #tinytex::pdflatex('test.tex')
 
+### Load in functions from code/00_functions
+source("./code/00_functions.R")
+
 
 ### Load the data dictionary with all sheets as a list
-data_dictionary <- read_excel_allsheets(filename= ("./data_dictionary/EAVEII_data_dictionary.xlsx"))
-# read_excel_allsheets() in 00_functions
+# Load in all data sheets from data dictionary excel file
+data_dictionary <- read_excel_allsheets(filename= ("./data_dictionary/EAVEII_data_dictionary.xlsx")) # From 00_functions
+
+# Extract 1st tab as the main
+main_tab <- data_dictionary[[1]]
 
 
 
-##### Format #####
+##### 1 - Desired format #####
 # 1. Dataset
 #### Metadata on dataset
 #### Variables:
@@ -39,33 +45,29 @@ data_dictionary <- read_excel_allsheets(filename= ("./data_dictionary/EAVEII_dat
 #### - Variable values
 #### - Comments
 
-#### Metadata on dataset #####
-main_tab <- data_dictionary[[1]]
 
+##### 2 - Code to input data in Rmd ####
 
-##### Function for headers ####
-
+for(i in 2:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to the rest of the sheets
   
-for(j in 2:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to the rest of the sheets
-  
-  # Extract baseline information from sheet
-  h1 <- names(data_dictionary[j]) # The sheet name will be header 1 (h1)
-  data_input <- data_dictionary[[j]] # Extract data from list as a dataframe (requires [[]])
+  ## Extract baseline information from sheet
+  h1 <- names(data_dictionary[i]) # The sheet name will be header 1 (h1)
+  data_input <- data_dictionary[[i]] # Extract data from list as a dataframe (requires [[]])
   
   # Assigns header 1 (h1) as the sheet name to rmd
   cat("\n# ", h1, "\n")
   
-  # Dataset metadata
-  metadata_row <- match(h1, main_tab$Data_source_name)
-  main_tab_input <- main_tab[metadata_row,]
+  ## Dataset information
+  metadata_row <- match(h1, main_tab$Data_source_name) # Match the row from the main tab (1st sheet)
+  main_tab_input <- main_tab[metadata_row,] # Subset to the row in the main tab corresponding to the ith sheet
   
-  metadata_tbl <- dataset_metadata_fn(main_tab_input)
+  metadata_tbl <- dataset_metadata_fn(main_tab_input) # # From 00_functions
   
   
-  # Variable table
-  variables_tbl <- variable_metadata_fn(data_input)
-
+  ## Variable table
+  variables_tbl <- variable_metadata_fn(data_input) # From 00_functions
   
+  ## Print dataset information and variable information
   print(metadata_tbl, variables_tbl)
   
   

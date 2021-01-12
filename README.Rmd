@@ -9,12 +9,17 @@ output:
 
 ---
 ```{r setup, message=FALSE, warning=FALSE, echo=F, include=T}
+# Load in libraries 
 
 library(readxl)
 library(tidyverse)
 library(knitr)
 options(kableExtra.auto_format = FALSE)
 library(kableExtra)
+
+# Read in functions from code/00_functions
+source("./code/00_functions.R")
+
 
 ```
 
@@ -25,19 +30,11 @@ htmltools::img(src = image_uri(file.path("./logo/EAVEII logo.png")),
 ```
 
 ```{r data_load, results='asis', message=FALSE, warning=FALSE, echo=F, include=T}
-read_excel_allsheets <- function(filename, tibble = FALSE) {
-  # I prefer straight data.frames
-  # but if you like tidyverse tibbles (the default with read_excel)
-  # then just pass tibble = TRUE
-  sheets <- excel_sheets(filename)
-  x <- lapply(sheets, function(X) readxl::read_excel(filename, sheet = X))
-  if(!tibble) x <- lapply(x, as.data.frame)
-  names(x) <- sheets
-  x
-  
-}
+# Load in all data sheets from data dictionary excel file
+data_dictionary <- read_excel_allsheets(filename= ("./data_dictionary/EAVEII_data_dictionary.xlsx")) # From 00_functions
 
-data_dictionary <- read_excel_allsheets(filename= ("./data_dictionary/EAVEII_data_dictionary.xlsx"))
+# Extract 1st tab as the main
+main_tab <- data_dictionary[[1]]
 
 
 
@@ -50,24 +47,28 @@ data_dictionary <- read_excel_allsheets(filename= ("./data_dictionary/EAVEII_dat
 # Create a loop that takes each sheet individually, extracts the sheet name (for header) and
 # reformats excel spreadsheet so it can reformat it into R Markdown document
 
-for(j in 2:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to the rest of the sheets
-  
-  # Extract baseline information from sheet
-  h1 <- names(data_dictionary[j]) # The sheet name will be header 1 (h1)
-  data_input <- data_dictionary[[j]] # Extract data from list as a dataframe (requires [[]])
+for(i in 2:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to the rest of the sheets
+
+  ## Extract baseline information from sheet
+  h1 <- names(data_dictionary[i]) # The sheet name will be header 1 (h1)
+  data_input <- data_dictionary[[i]] # Extract data from list as a dataframe (requires [[]])
   
   # Assigns header 1 (h1) as the sheet name to rmd
   cat("\n# ", h1, "\n")
   
-  metadata_tbl <- data_input %>% kable() %>%
-      kable_styling(c("striped"), position = "left") %>%
-    column_spec(c(1,2,4), width = "1em") %>%
-    column_spec(c(3,5,6), width = "2em")
+  ## Dataset information
+  metadata_row <- match(h1, main_tab$Data_source_name) # Match the row from the main tab (1st sheet)
+  main_tab_input <- main_tab[metadata_row,] # Subset to the row in the main tab corresponding to the ith sheet
   
-    print(metadata_tbl)
+  metadata_tbl <- dataset_metadata_fn(main_tab_input) # # From 00_functions
+  
+  
+  ## Variable table
+  variables_tbl <- variable_metadata_fn(data_input) # From 00_functions
+
+  ## Print dataset information and variable information
+  print(metadata_tbl, variables_tbl)
     
-
-
 
   
 }

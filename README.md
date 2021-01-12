@@ -9,6 +9,126 @@ EAVE II Analysts
 
 # 1 GP Data Demographics
 
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Baseline GP extract on all patients and their key demographics
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Data file name
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE\_demographics.rds
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Cleaned
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+Bi-monthly to 3 months
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update timesamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
 | Name                   | Label                           | Description                                                   | Type      | Data\_source | Values                                                                                                                                                                                                                                        | Derived variable | Derivation hierarchy | Comments                       |
 | :--------------------- | :------------------------------ | :------------------------------------------------------------ | :-------- | :----------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------- | :------------------- | :----------------------------- |
 | EAVE\_LINKNO           | EAVE Link Number                | Randomly assigned study index number                          | character | GP data      | EAVE(7)digits (e.g. EAVE1234567)                                                                                                                                                                                                              | NA               | NA                   | NA                             |
@@ -20,14 +140,258 @@ EAVE II Analysts
 | hb2019                 | NHS Health Board Code           | Codes of NHS Health Boards                                    | character | GP data      | S08000015, S08000016, S08000017, S08000019, S08000020, S08000022, S08000024, S08000025, S08000026, S08000028, S08000029, S08000030, S08000031, S08000032                                                                                      | NA               | NA                   | Names of Health Boards in 2019 |
 | hb2019name             | NHS Health Board Name           | Names of NHS Health Boards                                    | character | GP data      | NHS Ayrshire and Arran, NHS Borders, NHS Dumfries and Galloway, NHS Fife, NHS Forth Valley, NHS Grampian, NHS Greater Glasgow and Clyde, NHS Highland, NHS Lanarkshire, NHS Lothian, NHS Orkney, NHS Shetland, NHS Tayside, NHS Western Isles | NA               | NA                   | Names of Health Boards in 2019 |
 
+NULL
+
 # 2 GP Diagnostics
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Baseline GP extract of all EAVE II risk groups
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Data file name
+
+</td>
+
+<td style="text-align:left;">
+
+NAME?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Cleaned
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+Bi-monthly to 3 months
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update timesamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 | Name         | Label                  | Description                                                                     | Type      | Data\_source | Values                           | Derived variable | Derivation hierarchy |
 | :----------- | :--------------------- | :------------------------------------------------------------------------------ | :-------- | :----------- | :------------------------------- | :--------------- | :------------------- |
 | EAVE\_LINKNO | EAVE Link Number       | Randomly assigned study index number                                            | character | GP data      | EAVE(7)digits (e.g. EAVE1234567) | NA               | NA                   |
 | diag         | Diagnosis (GP cluster) | Medical diagnosis, clinical indicators and other health-related characteristics | character | GP data      | EAVEII\_dd\_gp\_clusters.xlsx    | NA               | NA                   |
 
+NULL
+
 # 3 ECOSS
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Laboratory data on COVID-19 testing
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Data file name
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS\_cohort.rds
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Cleaned
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update timesamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 | Name              | Label                         | Description                                               | Type      | Data\_souce | Values                                                                                                                                                                                                                                                                                                                                                                 | Derived variable | Derivation hierarchy | Comments |
 | :---------------- | :---------------------------- | :-------------------------------------------------------- | :-------- | :---------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------- | :------------------- | :------- |
@@ -54,7 +418,129 @@ EAVE II Analysts
 | NRS.date.Death    | NRS death date                | National Records of Scotland death date                   | date      | ECOSS       | yyyy-mm-dd                                                                                                                                                                                                                                                                                                                                                             | NA               | NA                   | NA       |
 | death28           | Death within 28 days          | Death within 28 days of ?                                 | integer   | ECOSS       | 0, 1                                                                                                                                                                                                                                                                                                                                                                   | NA               | NA                   | NA       |
 
+NULL
+
 # 4 Health Board Lookup
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Lookup of NHS Scotland Healthboards and the total population
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Data file name
+
+</td>
+
+<td style="text-align:left;">
+
+HB2019\_pop\_lookup.rds
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Lookup
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update timesamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 | Name       | Label                  | Description                                                 | Type      | Data\_source        | Values                                                                                                                                                                                                                                        | Derived variable | Derivation hierarchy | Comments |
 | :--------- | :--------------------- | :---------------------------------------------------------- | :-------- | :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------- | :------------------- | :------- |
@@ -68,7 +554,129 @@ EAVE II Analysts
 | sex\_name  | Sex                    | Sex at birth                                                | character | Health board lookup | M, F                                                                                                                                                                                                                                          | NA               | NA                   | NA       |
 | pop        | Population             | Number of people by year, Health Board, age and sex         | integer   | Health board lookup | e.g. 1508                                                                                                                                                                                                                                     | NA               | NA                   | NA       |
 
+NULL
+
 # 5 Severe cases
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE II severe cases and outcomes
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Data file name
+
+</td>
+
+<td style="text-align:left;">
+
+cases\_severe\_dates.rds
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Derived
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update timesamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 | Name               | Label                   | Description                                                                  | Type      | Data\_source                           | Values                                                        | Derived variable | Derivation hierarchy | Comments |
 | :----------------- | :---------------------- | :--------------------------------------------------------------------------- | :-------- | :------------------------------------- | :------------------------------------------------------------ | :--------------- | :------------------- | :------- |
@@ -91,7 +699,129 @@ EAVE II Analysts
 | admission.date     | Hospital admission date | date admitted to hospital                                                    | date      | NA                                     | date in format yyyy-mm-dd                                     | NA               | NA                   | NA       |
 | days\_2\_hosp      | Days to hospital        | days from test to admission to hospital                                      | numeric   | NA                                     | any +ve value (if testedbefore admission, value changed to 0) | NA               | NA                   | NA       |
 
+NULL
+
 # 6 Household identifier
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE II Household from CHI registry
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Data file name
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE\_demographics.rds
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Derived
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update timesamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 | Name                       | Label                                   | Description                                               | Type      | Values                           | Data\_Source | Dataset\_name          | Derived variable | Derivation hierarchy | Comments                                                                         |
 | :------------------------- | :-------------------------------------- | :-------------------------------------------------------- | :-------- | :------------------------------- | :----------- | :--------------------- | :--------------- | :------------------- | :------------------------------------------------------------------------------- |
@@ -105,7 +835,129 @@ EAVE II Analysts
 | Sept\_hid\_count           | Number of ID’s in household (September) | N persons in household (September)                        | numeric   | NA                               | CHILI        | NA                     | NA               | NA                   | hid with large membership may represent institutons e.g. care homes, prisons etc |
 | Sept\_transfer\_out\_date  | Move or transfer date (September)       | date moved out of scotland (from September CHILI extract) | date      | date                             | CHILI        | NA                     | NA               | NA                   | latest date de-registered as recorded in chili database in Sept 2020             |
 
+NULL
+
 # 7 QCOVID
+
+<table class="table table-striped" style="width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE II data for QCOVID validation analysis
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Data file name
+
+</td>
+
+<td style="text-align:left;">
+
+NAME?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Derived
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Update timesamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 | Name                 | Label | Description                                                                                                                                        | Type    | Values                                        | Data\_Source                               | Derived variable | Derivation hierarchy | Comments                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | :------------------- | :---- | :------------------------------------------------------------------------------------------------------------------------------------------------- | :------ | :-------------------------------------------- | :----------------------------------------- | :--------------- | :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -150,3 +1002,5 @@ EAVE II Analysts
 | renalcat             | NA    | Do you have kidney disease?                                                                                                                        | integer | 0-\>5                                         | GP data and HES (OPCS)                     | NA               | NA                   | NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | town                 | NA    | What is your postcode?                                                                                                                             | double  | double (nullable)                             | QCovid Postcode Table                      | NA               | NA                   | If given for the batch processor, this takes priority over any postcode entered                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Postcode             | NA    | NA                                                                                                                                                 | string  | string (nullable)                             | NA                                         | NA               | NA                   | User interface and batch processor only. When using the SDK, get the corresponding Townsend score from the Townsend deprivation database. See example code for details.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
+NULL
