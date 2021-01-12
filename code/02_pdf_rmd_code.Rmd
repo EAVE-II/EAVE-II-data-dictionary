@@ -3,25 +3,18 @@ title: "EAVE II Data Dictionary"
 author: "EAVE II Analysts"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
-  html_document:
+  pdf_document:
     toc: true
     toc_depth: 1
     number_sections: true
+geometry: "left=1.5cm,right=1.5cm,top=2cm,bottom=2cm"
 
 ---
+\fontsize{10}{22}
 
 
 ```{r setup, message=FALSE, warning=FALSE, echo=F, include=T}
-# Load in libraries 
-
-library(readxl)
-library(tidyverse)
-library(knitr)
-options(kableExtra.auto_format = FALSE)
-library(kableExtra)
 library(here)
-
-
 # Read in functions from code/00_functions
 source(here("./code/00_functions.R"))
 
@@ -48,7 +41,7 @@ main_tab <- data_dictionary[[1]]
 
 
 
-```{r metadata_loop, results='asis',message=FALSE, warning=FALSE, echo=F}
+```{r metadata_loop, results='asis',message=FALSE, warning=FALSE, echo=F, width=50}
 # Create a loop that takes each sheet individually, extracts the sheet name (for header) and
 # reformats excel spreadsheet so it can reformat it into R Markdown document
 
@@ -65,7 +58,7 @@ for(i in 2:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to
   # Header
   cat("\n## ", "Data information", "\n")
   
-  metadata_row <- match(h1, main_tab$Data_source_name) # Match the row from the main tab (1st sheet)
+  metadata_row <- match(h1, main_tab$`Dataset name`) # Match the row from the main tab (1st sheet)
   main_tab_input <- main_tab[metadata_row,] # Subset to the row in the main tab corresponding to the ith sheet
   
   metadata_tbl <- dataset_metadata_fn(main_tab_input) # # From 00_functions

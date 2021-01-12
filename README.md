@@ -149,7 +149,7 @@ NA
 
 ## 1.2 Variable information
 
-<table class="table table-striped" style="font-size: 6px; margin-left: auto; margin-right: auto;">
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
 
 <thead>
 
@@ -203,12 +203,6 @@ Derivation hierarchy
 
 </th>
 
-<th style="text-align:left;">
-
-Comments
-
-</th>
-
 </tr>
 
 </thead>
@@ -254,12 +248,6 @@ EAVE(7)digits (e.g. EAVE1234567)
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -323,12 +311,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -370,12 +352,6 @@ F, M
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -439,12 +415,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-SIMD in 2020
-
-</td>
-
 </tr>
 
 <tr>
@@ -494,12 +464,6 @@ NA
 <td style="text-align:left;width: 0.75in; ">
 
 NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
-
-Classification in 2016
 
 </td>
 
@@ -553,12 +517,6 @@ NA
 <td style="text-align:left;width: 0.75in; ">
 
 NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
-
-Classification in 2016
 
 </td>
 
@@ -616,12 +574,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-Names of Health Boards in 2019
-
-</td>
-
 </tr>
 
 <tr>
@@ -674,12 +626,6 @@ NA
 <td style="text-align:left;width: 0.75in; ">
 
 NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
-
-Names of Health Boards in 2019
 
 </td>
 
@@ -831,7 +777,7 @@ NA
 
 ## 2.2 Variable information
 
-<table class="table table-striped" style="font-size: 6px; margin-left: auto; margin-right: auto;">
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
 
 <thead>
 
@@ -882,12 +828,6 @@ Derived variable
 <th style="text-align:left;">
 
 Derivation hierarchy
-
-</th>
-
-<th style="text-align:left;">
-
-Comments
 
 </th>
 
@@ -947,12 +887,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -995,12 +929,6 @@ EAVEII\_dd\_gp\_clusters.xlsx
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -1160,7 +1088,7 @@ NA
 
 ## 3.2 Variable information
 
-<table class="table table-striped" style="font-size: 6px; margin-left: auto; margin-right: auto;">
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
 
 <thead>
 
@@ -1214,12 +1142,6 @@ Derivation hierarchy
 
 </th>
 
-<th style="text-align:left;">
-
-Comments
-
-</th>
-
 </tr>
 
 </thead>
@@ -1265,12 +1187,6 @@ EAVE(7)digits (e.g. EAVE1234567)
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -1334,12 +1250,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -1381,12 +1291,6 @@ F, M, U (Unknown)
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -1450,12 +1354,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -1497,12 +1395,6 @@ AA, BR, DG, FF, FV, GC, GR, HG, LN, LO, OR, SH, TY, UK (Uknown), WI
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -1566,12 +1458,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -1613,12 +1499,6 @@ ECOSS
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -1682,12 +1562,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -1729,12 +1603,6 @@ Coronavirus 2019-nCoV, Coronavirus 2019-nCoV negative
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -1798,12 +1666,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -1845,12 +1707,6 @@ ECOSS
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -1916,12 +1772,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -1963,12 +1813,6 @@ yyyy-mm-dd
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -2023,12 +1867,6 @@ STI:ROY, WES:LES
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -2096,12 +1934,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -2143,12 +1975,6 @@ NA
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -2212,12 +2038,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -2259,12 +2079,6 @@ citizen, DARA, SELF, NA
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -2328,12 +2142,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -2375,12 +2183,6 @@ yyyy-mm-dd
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -2444,12 +2246,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -2491,12 +2287,6 @@ ECOSS
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -2656,7 +2446,7 @@ NA
 
 ## 4.2 Variable information
 
-<table class="table table-striped" style="font-size: 6px; margin-left: auto; margin-right: auto;">
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
 
 <thead>
 
@@ -2707,12 +2497,6 @@ Derived variable
 <th style="text-align:left;">
 
 Derivation hierarchy
-
-</th>
-
-<th style="text-align:left;">
-
-Comments
 
 </th>
 
@@ -2772,12 +2556,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -2821,12 +2599,6 @@ S08000031, S08000032
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -2893,12 +2665,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -2942,12 +2708,6 @@ S08000031, S08000032
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -3013,12 +2773,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -3060,12 +2814,6 @@ Min= 0, Max= 90
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -3129,12 +2877,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -3187,12 +2929,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -3234,12 +2970,6 @@ e.g. 1508
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -3399,7 +3129,7 @@ NA
 
 ## 5.2 Variable information
 
-<table class="table table-striped" style="font-size: 6px; margin-left: auto; margin-right: auto;">
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
 
 <thead>
 
@@ -3453,12 +3183,6 @@ Derivation hierarchy
 
 </th>
 
-<th style="text-align:left;">
-
-Comments
-
-</th>
-
 </tr>
 
 </thead>
@@ -3504,12 +3228,6 @@ EAVE(7)digits (e.g. EAVE1234567)
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -3574,12 +3292,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -3621,12 +3333,6 @@ date in format yyyy-mm-dd
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -3690,12 +3396,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -3737,12 +3437,6 @@ TRUE/FALSE (should all be true)
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -3806,12 +3500,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -3853,12 +3541,6 @@ date in format yyyy-mm-dd
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -3922,12 +3604,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -3969,12 +3645,6 @@ binary 0/1
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -4038,12 +3708,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -4085,12 +3749,6 @@ binary 0/1
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -4154,12 +3812,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -4201,12 +3853,6 @@ binary 0/1
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -4270,12 +3916,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -4317,12 +3957,6 @@ date in format yyyy-mm-dd
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -4386,12 +4020,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -4444,12 +4072,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -4491,12 +4113,6 @@ any +ve value (if testedbefore admission, value changed to 0)
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -4656,7 +4272,7 @@ NA
 
 ## 6.2 Variable information
 
-<table class="table table-striped" style="font-size: 6px; margin-left: auto; margin-right: auto;">
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
 
 <thead>
 
@@ -4710,12 +4326,6 @@ Derivation hierarchy
 
 </th>
 
-<th style="text-align:left;">
-
-Comments
-
-</th>
-
 </tr>
 
 </thead>
@@ -4761,12 +4371,6 @@ EAVE(7)digits (e.g. EAVE1234567)
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -4830,12 +4434,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-date address last changed (march)
-
-</td>
-
 </tr>
 
 <tr>
@@ -4885,12 +4483,6 @@ NA
 <td style="text-align:left;width: 0.75in; ">
 
 NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
-
-date address last changed (sept)
 
 </td>
 
@@ -4946,12 +4538,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-hid = 0 means no household info avalible
-
-</td>
-
 </tr>
 
 <tr>
@@ -5001,13 +4587,6 @@ NA
 <td style="text-align:left;width: 0.75in; ">
 
 NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
-
-hid with large membership may represent institutons e.g. care homes,
-prisons etc
 
 </td>
 
@@ -5063,12 +4642,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-latest date de-registered as recorded in chili database in march 2020
-
-</td>
-
 </tr>
 
 <tr>
@@ -5118,12 +4691,6 @@ NA
 <td style="text-align:left;width: 0.75in; ">
 
 NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
-
-hid = 0 means no household info avalible
 
 </td>
 
@@ -5179,13 +4746,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-hid with large membership may represent institutons e.g. care homes,
-prisons etc
-
-</td>
-
 </tr>
 
 <tr>
@@ -5235,12 +4795,6 @@ NA
 <td style="text-align:left;width: 0.75in; ">
 
 NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
-
-latest date de-registered as recorded in chili database in Sept 2020
 
 </td>
 
@@ -5392,7 +4946,7 @@ NA
 
 ## 7.2 Variable information
 
-<table class="table table-striped" style="font-size: 6px; margin-left: auto; margin-right: auto;">
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
 
 <thead>
 
@@ -5446,12 +5000,6 @@ Derivation hierarchy
 
 </th>
 
-<th style="text-align:left;">
-
-Comments
-
-</th>
-
 </tr>
 
 </thead>
@@ -5497,12 +5045,6 @@ n/a
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -5566,15 +5108,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-This is usually biological sex at birth. There is insuffient data to
-model those who are intersex or trans, or indeed what the long term
-effect of hormone treatment etc on COVID risk for those who are
-biologically reassigned.
-
-</td>
-
 </tr>
 
 <tr>
@@ -5624,12 +5157,6 @@ NA
 <td style="text-align:left;width: 0.75in; ">
 
 NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
-
-The age in years at the search date
 
 </td>
 
@@ -5685,12 +5212,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-Prescribed four or more times in the previous 6 months
-
-</td>
-
 </tr>
 
 <tr>
@@ -5740,12 +5261,6 @@ NA
 <td style="text-align:left;width: 0.75in; ">
 
 NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
-
-Prescribed four or more times in the previous 6 months
 
 </td>
 
@@ -5801,13 +5316,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-oral predisolone containing preparations prescribed four or more times
-in the previous 6 months
-
-</td>
-
 </tr>
 
 <tr>
@@ -5849,12 +5357,6 @@ GP data
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -5918,12 +5420,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -5965,12 +5461,6 @@ GP data
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -6036,12 +5526,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -6083,12 +5567,6 @@ GP data
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -6152,12 +5630,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -6199,12 +5671,6 @@ GP data
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -6269,14 +5735,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-The categorisation should be based either a Read code for congenital
-heart disease OR an HES OPCS code for surgery for congenital heart
-disease ever
-
-</td>
-
 </tr>
 
 <tr>
@@ -6318,12 +5776,6 @@ GP data
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -6387,12 +5839,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -6445,12 +5891,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -6492,12 +5932,6 @@ GP data
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -6562,12 +5996,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -6609,12 +6037,6 @@ GP data
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -6678,12 +6100,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -6725,12 +6141,6 @@ GP data
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -6794,12 +6204,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -6841,12 +6245,6 @@ GP data
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -6910,12 +6308,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -6957,12 +6349,6 @@ GP data
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -7027,12 +6413,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-NA
-
-</td>
-
 </tr>
 
 <tr>
@@ -7074,12 +6454,6 @@ GP data
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -7143,21 +6517,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-Some patients with diabetes will have codes for type 1 and type2 both
-recorded in their medical record. It is likely that the most recently
-recorded code is the most reliable. Therefore, to categorise patients
-into type 1 or type 2, then identify the latest code recorded in the
-medical record. If it is Type 1, then code the patient as type 1. If it
-is type 2, then code the patient as Type 2. If a patient has two codes
-(one for type 1 and one for type2) recorded on the same day and that is
-the latest recorded entry, then assume the patient is Type2. The final
-categorisation should ensure that patients are EITHER Type 1 or Type 2
-or neither.
-
-</td>
-
 </tr>
 
 <tr>
@@ -7199,12 +6558,6 @@ GP data
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -7268,12 +6621,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-The most recently recorded patient BMI within the last 5 years.
-
-</td>
-
 </tr>
 
 <tr>
@@ -7323,14 +6670,6 @@ NA
 <td style="text-align:left;width: 0.75in; ">
 
 NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
-
-Chemotherapy prescribed in preceding 12 months as recorded on the
-Systemic Anti Cancer Treatment (SACT) data. Chemotherapy classified into
-3 cateogries (sheet 3)
 
 </td>
 
@@ -7386,14 +6725,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-See separate table in this spreadsheet for the values needed for the
-batch processor. For the SDK, these values are represented as text
-within the Ethnicity type (sheet 2)
-
-</td>
-
 </tr>
 
 <tr>
@@ -7443,12 +6774,6 @@ NA
 <td style="text-align:left;width: 0.75in; ">
 
 NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
-
-The most recently recorded accommodation status recorded on GP record
 
 </td>
 
@@ -7504,13 +6829,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-The most recorded recorded value. If some has a code both for learning
-disability and Downs, they should be coded as Downs
-
-</td>
-
 </tr>
 
 <tr>
@@ -7552,12 +6870,6 @@ HES (OPCS)
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -7621,13 +6933,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-coded as having radiotherapy in the preceding 6 months on either HES or
-RTDS
-
-</td>
-
 </tr>
 
 <tr>
@@ -7681,12 +6986,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-coded as having solid organ transplant ever on HES
-
-</td>
-
 </tr>
 
 <tr>
@@ -7728,12 +7027,6 @@ GP data and HES (OPCS)
 </td>
 
 <td style="text-align:left;width: 0.5in; ">
-
-NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
 
 NA
 
@@ -7797,13 +7090,6 @@ NA
 
 </td>
 
-<td style="text-align:left;width: 0.75in; ">
-
-If given for the batch processor, this takes priority over any postcode
-entered
-
-</td>
-
 </tr>
 
 <tr>
@@ -7853,14 +7139,6 @@ NA
 <td style="text-align:left;width: 0.75in; ">
 
 NA
-
-</td>
-
-<td style="text-align:left;width: 0.75in; ">
-
-User interface and batch processor only. When using the SDK, get the
-corresponding Townsend score from the Townsend deprivation database. See
-example code for details.
 
 </td>
 

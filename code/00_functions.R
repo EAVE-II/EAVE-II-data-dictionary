@@ -5,6 +5,13 @@
 ## Description: Functions used in data dictionary code
 ###################################################################### 
 
+##### 0 - Libraries ####
+library(readxl)
+library(tidyverse)
+library(knitr)
+options(kableExtra.auto_format = FALSE)
+library(kableExtra)
+
 ##### 1 - Reading excel sheets ####
 read_excel_allsheets <- function(filename, tibble = FALSE) {
   sheets <- excel_sheets(filename)
@@ -18,14 +25,15 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
 
 ##### 2 - Metadata function for datasets #####
 dataset_metadata_fn <- function(main_tab_input){
-  metadata_tbl <- tibble(info = c("Description", "Data file name", "Type", "Scripts", "Update frequency", "Update timesamps", "Analyses used"),
-                         info_fill = c(main_tab_input$Description, main_tab_input$Data_file, 
-                                       main_tab_input$Type, main_tab_input$Script,
-                                       main_tab_input$Update_frequency, main_tab_input$Timestamps,
+  metadata_tbl <- tibble(info = c("Description", "Datafile", "Type", "Data sources","Scripts", "Update frequency", "Update timesamps", "Analyses used"),
+                         info_fill = c(main_tab_input$Description, main_tab_input$`Data file`, 
+                                       main_tab_input$Type, main_tab_input$`Data sources`,
+                                       main_tab_input$Script,
+                                       main_tab_input$`Update frequency`, main_tab_input$Timestamps,
                                        main_tab_input$Analyses)) %>%
     kbl(col.names = NULL) %>%
-    kable_styling(c("striped"), full_width = F, position = "left") %>%
-    column_spec(1, bold=T)
+    kable_styling(c("striped"), full_width = F, position = "left", font_size = 10) %>%
+    column_spec(1, width = "1.5in", bold=T)
   
   print(metadata_tbl)
 }
@@ -33,10 +41,13 @@ dataset_metadata_fn <- function(main_tab_input){
 
 ##### 3 - Variable table function #####
 variable_metadata_fn <- function(data_input){
-  variables_tbl <- data_input %>% kable() %>%
-    kable_styling(c("striped"), position = "left") %>%
-    column_spec(c(1,2,4), width = "1em") %>%
-    column_spec(c(3,5,6), width = "2em")
+  variables_tbl <- data_input %>% 
+    select(-Comments) %>%
+    kbl(booktabs = TRUE, longtable = TRUE) %>%
+    kable_styling(c("striped"), font_size=7, latex_options = c("repeat_header")) %>%
+    column_spec(c(2,3,8), width = "0.75in") %>%
+    column_spec(c(4,5,7), width = "0.5in") %>%
+    column_spec(c(6), width = "1.25in")
   
   print(variables_tbl)
 }
