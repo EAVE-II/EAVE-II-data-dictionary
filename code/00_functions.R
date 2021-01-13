@@ -25,7 +25,7 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
 
 ##### 2 - Metadata function for datasets #####
 dataset_metadata_fn <- function(main_tab_input){
-  metadata_tbl <- tibble(info = c("Description", "Datafile", "Type", "Data sources","Scripts", "Update frequency", "Update timesamps", "Analyses used"),
+  metadata_tbl <- tibble(info = c("Description", "Datafile", "Type", "Data sources","Scripts", "Update frequency", "Update timestamps", "Analyses used"),
                          info_fill = c(main_tab_input$Description, main_tab_input$`Data file`, 
                                        main_tab_input$Type, main_tab_input$`Data sources`,
                                        main_tab_input$Script,

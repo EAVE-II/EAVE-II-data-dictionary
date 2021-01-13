@@ -111,7 +111,7 @@ Bi-monthly to 3 months
 
 <td style="text-align:left;width: 1.5in; font-weight: bold;">
 
-Update timesamps
+Update timestamps
 
 </td>
 
@@ -739,7 +739,7 @@ Bi-monthly to 3 months
 
 <td style="text-align:left;width: 1.5in; font-weight: bold;">
 
-Update timesamps
+Update timestamps
 
 </td>
 
@@ -1050,7 +1050,7 @@ Update frequency
 
 <td style="text-align:left;width: 1.5in; font-weight: bold;">
 
-Update timesamps
+Update timestamps
 
 </td>
 
@@ -2408,7 +2408,7 @@ Update frequency
 
 <td style="text-align:left;width: 1.5in; font-weight: bold;">
 
-Update timesamps
+Update timestamps
 
 </td>
 
@@ -3091,7 +3091,7 @@ Update frequency
 
 <td style="text-align:left;width: 1.5in; font-weight: bold;">
 
-Update timesamps
+Update timestamps
 
 </td>
 
@@ -4234,7 +4234,7 @@ Update frequency
 
 <td style="text-align:left;width: 1.5in; font-weight: bold;">
 
-Update timesamps
+Update timestamps
 
 </td>
 
@@ -4908,7 +4908,7 @@ Update frequency
 
 <td style="text-align:left;width: 1.5in; font-weight: bold;">
 
-Update timesamps
+Update timestamps
 
 </td>
 
