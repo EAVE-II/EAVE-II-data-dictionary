@@ -11,22 +11,23 @@ output:
 ```{r setup, message=FALSE, warning=FALSE, echo=F, include=T}
 library(here)
 # Read in functions from code/00_functions
-source("./code/00_functions.R")
+source(here("./code/00_functions.R"))
 
-options(knitr.table.format = "html")
+#options(knitr.table.format = "html")
 
 
 ```
 
 ```{r logo, echo=F}
-htmltools::img(src = image_uri(file.path("./logo/EAVEII logo.png")),
-               style="position:absolute; top:0; right:0; padding:10px; width:200px;")
+#htmltools::img(src = image_uri(file.path(here("./logo/EAVEII logo.png"))),
+               #style="position:absolute; top:0; right:0; padding:10px; width:200px;"
+#               )
 
 ```
 
 ```{r data_load, results='asis', message=FALSE, warning=FALSE, echo=F, include=T}
 # Load in all data sheets from data dictionary excel file
-data_dictionary <- read_excel_allsheets(filename= ("./data_dictionary/EAVEII_data_dictionary.xlsx")) # From 00_functions
+data_dictionary <- read_excel_allsheets(filename= (here("./data_dictionary/EAVEII_data_dictionary.xlsx"))) # From 00_functions
 
 # Extract 1st tab as the main
 main_tab <- data_dictionary[[1]]

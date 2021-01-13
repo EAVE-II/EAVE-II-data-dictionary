@@ -58,7 +58,7 @@ for(i in 2:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to
   cat("\n# ", h1, "\n")
   
   ## Dataset information
-  metadata_row <- match(h1, main_tab$Data_source_name) # Match the row from the main tab (1st sheet)
+  metadata_row <- match(h1, main_tab$`Dataset name`) # Match the row from the main tab (1st sheet)
   main_tab_input <- main_tab[metadata_row,] # Subset to the row in the main tab corresponding to the ith sheet
   
   metadata_tbl <- dataset_metadata_fn(main_tab_input) # # From 00_functions
