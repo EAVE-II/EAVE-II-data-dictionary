@@ -7039,6 +7039,12 @@ NA
 
 <th style="text-align:left;">
 
+Name
+
+</th>
+
+<th style="text-align:left;">
+
 Label
 
 </th>
@@ -7090,6 +7096,12 @@ Derivation hierarchy
 <td style="text-align:left;">
 
 EAVE\_LINKNO
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE Link Number
 
 </td>
 
@@ -7147,6 +7159,12 @@ ECOSS ID
 
 <td style="text-align:left;">
 
+ECOSS ID
+
+</td>
+
+<td style="text-align:left;">
+
 numeric
 
 </td>
@@ -7182,6 +7200,12 @@ NA
 <td style="text-align:left;">
 
 age\_year
+
+</td>
+
+<td style="text-align:left;">
+
+Age
 
 </td>
 
@@ -7239,6 +7263,12 @@ Sex
 
 <td style="text-align:left;">
 
+Sex
+
+</td>
+
+<td style="text-align:left;">
+
 character
 
 </td>
@@ -7274,6 +7304,12 @@ NA
 <td style="text-align:left;">
 
 SpecimenDate
+
+</td>
+
+<td style="text-align:left;">
+
+Specimen Date
 
 </td>
 
@@ -7325,6 +7361,12 @@ SubLab
 
 <td style="text-align:left;">
 
+Sub Lab
+
+</td>
+
+<td style="text-align:left;">
+
 location sample processed
 
 </td>
@@ -7366,6 +7408,12 @@ NA
 <td style="text-align:left;">
 
 result
+
+</td>
+
+<td style="text-align:left;">
+
+COVID result
 
 </td>
 
@@ -7417,6 +7465,12 @@ NRS.Date.Death
 
 <td style="text-align:left;">
 
+Date of NRS death record
+
+</td>
+
+<td style="text-align:left;">
+
 Date of death
 
 </td>
@@ -7463,6 +7517,12 @@ death28
 
 <td style="text-align:left;">
 
+Death within 28 days of positive test
+
+</td>
+
+<td style="text-align:left;">
+
 Died within 28 days of +ve test
 
 </td>
@@ -7504,6 +7564,12 @@ NA
 <td style="text-align:left;">
 
 simd2020
+
+</td>
+
+<td style="text-align:left;">
+
+SIMD Quintile 2020
 
 </td>
 
@@ -7556,6 +7622,12 @@ admission\_date
 
 <td style="text-align:left;">
 
+Admission to hospital date
+
+</td>
+
+<td style="text-align:left;">
+
 Day admitted to hospital
 
 </td>
@@ -7597,6 +7669,12 @@ NA
 <td style="text-align:left;">
 
 discharge\_date
+
+</td>
+
+<td style="text-align:left;">
+
+Discharge from hospital date
 
 </td>
 
@@ -7648,6 +7726,12 @@ covid\_adm
 
 <td style="text-align:left;">
 
+COVID admission
+
+</td>
+
+<td style="text-align:left;">
+
 Flag for covid admission
 
 </td>
@@ -7694,6 +7778,12 @@ time\_test\_covid\_adm
 
 <td style="text-align:left;">
 
+Time from positive test to admission
+
+</td>
+
+<td style="text-align:left;">
+
 Time (days) from +ve test to admission
 
 </td>
@@ -7735,6 +7825,12 @@ NA
 <td style="text-align:left;">
 
 covid\_dth
+
+</td>
+
+<td style="text-align:left;">
+
+COVID death
 
 </td>
 
@@ -7787,7 +7883,13 @@ time\_test\_covid\_dth
 
 <td style="text-align:left;">
 
-Time (days) from +ve test to dearh
+Time from poistive test to death
+
+</td>
+
+<td style="text-align:left;">
+
+Time (days) from +ve test to death
 
 </td>
 
@@ -7828,6 +7930,12 @@ NA
 <td style="text-align:left;">
 
 days
+
+</td>
+
+<td style="text-align:left;">
+
+Days of…
 
 </td>
 
@@ -7879,6 +7987,12 @@ true\_s\_gene\_dropout
 
 <td style="text-align:left;">
 
+True S Gene Dropout
+
+</td>
+
+<td style="text-align:left;">
+
 Whether S gene positive, S gene negative or weak Sgene positive on PCR
 test.
 
@@ -7921,6 +8035,12 @@ NA
 <td style="text-align:left;">
 
 new
+
+</td>
+
+<td style="text-align:left;">
+
+New patient since last linkage
 
 </td>
 
