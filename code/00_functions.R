@@ -52,3 +52,31 @@ variable_metadata_fn <- function(data_input){
   print(variables_tbl)
 }
 
+##### 4 - Variable table function (for README - doesn't like column_spec) #####
+variable_metadata_md_fn <- function(data_input){
+  variables_tbl <- data_input %>% 
+    select(-Comments) %>%
+    kbl(booktabs = TRUE, longtable = TRUE) %>%
+    kable_styling(c("striped"), font_size=7, latex_options = c("repeat_header"))
+    #column_spec(c(2,3,8), width = "0.75in") %>%
+    #column_spec(c(4,5,7), width = "0.5in") %>%
+    #column_spec(c(6), width = "1.25in")
+  
+  print(variables_tbl)
+}
+
+
+
+#### 5 - Supplementary info - Update when new supplementary files uploaded #####
+supplementary_tbl <- data.frame(
+  Name = c("GP Cluster ReadCodes", "Data source external information"),
+  Description = c("Links each GP risk group cluster to the GP ReadCodes within the GP IT system",
+                  "Provides extra information and links on linked data sources"),
+  File = c("EAVEII_dd_gp_clusters.xlsx",
+           "EAVEII_dd_external_info.xlsx")) %>%
+  kable(booktabs = TRUE, longtable = TRUE) %>%
+  kable_styling(font_size=10)
+
+
+
+
