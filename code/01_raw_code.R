@@ -48,11 +48,11 @@ main_tab <- data_dictionary[[1]]
 
 ##### 2 - Code to input data in Rmd ####
 
-for(i in 2:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to the rest of the sheets
+for(i in 3:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to the rest of the sheets
   
   ## Extract baseline information from sheet
   h1 <- names(data_dictionary[i]) # The sheet name will be header 1 (h1)
-  data_input <- data_dictionary[[i]] # Extract data from list as a dataframe (requires [[]])
+    data_input <- data_dictionary[[i]] # Extract data from list as a dataframe (requires [[]])
   
   # Assigns header 1 (h1) as the sheet name to rmd
   cat("\n# ", h1, "\n")
@@ -68,8 +68,7 @@ for(i in 2:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to
   variables_tbl <- variable_metadata_fn(data_input) # From 00_functions
   
   ## Print dataset information and variable information
-  print(metadata_tbl, variables_tbl)
-  
+
   
   
   

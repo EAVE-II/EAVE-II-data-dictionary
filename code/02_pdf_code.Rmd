@@ -3,28 +3,29 @@ title: "EAVE II Data Dictionary"
 author: "EAVE II Analysts"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
-  github_document:
+  pdf_document:
+    toc: true
+    toc_depth: 1
     number_sections: true
+geometry: "left=1.5cm,right=1.5cm,top=2cm,bottom=2cm"
 
 ---
+
 
 ```{r setup, message=FALSE, warning=FALSE, echo=F, include=T}
 library(here)
 # Read in functions from code/00_functions
 source(here("./code/00_functions.R"))
 
-#options(knitr.table.format = "html")
-
 
 ```
 
 ```{r logo, echo=F}
-#htmltools::img(src = image_uri(file.path(here("./logo/EAVEII logo.png"))),
+htmltools::img(src = image_uri(file.path(here("./logo/EAVEII logo.png"))),
                #style="position:absolute; top:0; right:0; padding:10px; width:200px;"
-#               )
+               )
 
 ```
-
 
 ```{r data_load, results='asis', message=FALSE, warning=FALSE, echo=F, include=T}
 # Load in all data sheets from data dictionary excel file
@@ -40,7 +41,7 @@ main_tab <- data_dictionary[[1]]
 
 
 
-```{r metadata_loop, results='asis',message=FALSE, warning=FALSE, echo=F}
+```{r metadata_loop, results='asis',message=FALSE, warning=FALSE, echo=F, width=50}
 # Create a loop that takes each sheet individually, extracts the sheet name (for header) and
 # reformats excel spreadsheet so it can reformat it into R Markdown document
 
@@ -68,7 +69,7 @@ for(i in 3:length(data_dictionary)){ # Sheet 1 = "Main" so start from sheet 2 to
   # Header
   cat("\n## ", "Variable information", "\n")
   
-  variables_tbl <- variable_metadata_md_fn(data_input) # From 00_functions
+  variables_tbl <- variable_metadata_fn(data_input) # From 00_functions
 
 
   
