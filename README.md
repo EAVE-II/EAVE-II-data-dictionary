@@ -1,7 +1,7 @@
 EAVE II Data Dictionary
 ================
 EAVE II Analysts
-22 January, 2021
+20 July, 2021
 
 # 1 GP Data Demographics
 
@@ -8086,7 +8086,5316 @@ NA
 
 </table>
 
-# 9 Supplementary Information
+# 9 Vaccinations
+
+## 9.1 Data information
+
+<table class="table table-striped" style="font-size: 10px; width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+COVID-19 vaccinations from GP system and Turas Vaccination Management
+Tool (TVMT)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Datafile
+
+</td>
+
+<td style="text-align:left;">
+
+C19vaccine.rds
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Cleaned
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Data sources
+
+</td>
+
+<td style="text-align:left;">
+
+GP data, Turas
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+Weekly to fortnightly
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update timestamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 9.2 Variable information
+
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
+
+<thead>
+
+<tr>
+
+<th style="text-align:left;">
+
+Name
+
+</th>
+
+<th style="text-align:left;">
+
+Label
+
+</th>
+
+<th style="text-align:left;">
+
+Description
+
+</th>
+
+<th style="text-align:left;">
+
+Type
+
+</th>
+
+<th style="text-align:left;">
+
+Data source
+
+</th>
+
+<th style="text-align:left;">
+
+Values
+
+</th>
+
+<th style="text-align:left;">
+
+Derived variable
+
+</th>
+
+<th style="text-align:left;">
+
+Derivation hierarchy
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;">
+
+EAVE\_LINKNO
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE Link Number
+
+</td>
+
+<td style="text-align:left;">
+
+Randomly assigned study index number
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+derived/assigned
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE(7)digits (e.g. EAVE1234567)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Run\_Date
+
+</td>
+
+<td style="text-align:left;">
+
+Date of extract
+
+</td>
+
+<td style="text-align:left;">
+
+Date extract run
+
+</td>
+
+<td style="text-align:left;">
+
+date time
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+Date time
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Date\_of\_birth
+
+</td>
+
+<td style="text-align:left;">
+
+DOB
+
+</td>
+
+<td style="text-align:left;">
+
+Date of birth
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+postcode
+
+</td>
+
+<td style="text-align:left;">
+
+Postcode of residence
+
+</td>
+
+<td style="text-align:left;">
+
+Postcode (if available)
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+UK postcode
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+occurrence\_time
+
+</td>
+
+<td style="text-align:left;">
+
+Date of vaccination
+
+</td>
+
+<td style="text-align:left;">
+
+Date of vaccination
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+type
+
+</td>
+
+<td style="text-align:left;">
+
+Vaccine type
+
+</td>
+
+<td style="text-align:left;">
+
+Vaccine type
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+AstraZenica, Pfizer, Moderna
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+stage
+
+</td>
+
+<td style="text-align:left;">
+
+Dose number
+
+</td>
+
+<td style="text-align:left;">
+
+Dose number
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+1 or 2 (a few 0, 3 or blank)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+batch
+
+</td>
+
+<td style="text-align:left;">
+
+Batch number
+
+</td>
+
+<td style="text-align:left;">
+
+Batch number
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+batch numbers of vaccines
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+site
+
+</td>
+
+<td style="text-align:left;">
+
+Injeciton site
+
+</td>
+
+<td style="text-align:left;">
+
+Injeciton site
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+RUA (right upper arm), LUA, etc
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+method
+
+</td>
+
+<td style="text-align:left;">
+
+Method of delivery
+
+</td>
+
+<td style="text-align:left;">
+
+Method of delivery
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+IM (intramuscular)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+# 10 Adverse events (clotting)
+
+## 10.1 Data information
+
+<table class="table table-striped" style="font-size: 10px; width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+COVID-19 vaccine adverse events for clotting
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Datafile
+
+</td>
+
+<td style="text-align:left;">
+
+AZ\_safety
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Cleaned
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Data sources
+
+</td>
+
+<td style="text-align:left;">
+
+GP data
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+Weekly to fortnightly
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update timestamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 10.2 Variable information
+
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
+
+<thead>
+
+<tr>
+
+<th style="text-align:left;">
+
+Name
+
+</th>
+
+<th style="text-align:left;">
+
+Label
+
+</th>
+
+<th style="text-align:left;">
+
+Description
+
+</th>
+
+<th style="text-align:left;">
+
+Type
+
+</th>
+
+<th style="text-align:left;">
+
+Data source
+
+</th>
+
+<th style="text-align:left;">
+
+Values
+
+</th>
+
+<th style="text-align:left;">
+
+Derived variable
+
+</th>
+
+<th style="text-align:left;">
+
+Derivation hierarchy
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;">
+
+EAVE\_LINKNO
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE Link Number
+
+</td>
+
+<td style="text-align:left;">
+
+Randomly assigned study index number
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+derived/assigned
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE(7)digits (e.g. EAVE1234567)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+ExtractDate
+
+</td>
+
+<td style="text-align:left;">
+
+Date of data extraction
+
+</td>
+
+<td style="text-align:left;">
+
+Date of data extraction
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Practice\_Number
+
+</td>
+
+<td style="text-align:left;">
+
+GP practice number
+
+</td>
+
+<td style="text-align:left;">
+
+GP practice number
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+5 digit code
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Age
+
+</td>
+
+<td style="text-align:left;">
+
+Age
+
+</td>
+
+<td style="text-align:left;">
+
+Age at time of event
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+0-100
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Sex
+
+</td>
+
+<td style="text-align:left;">
+
+Sex
+
+</td>
+
+<td style="text-align:left;">
+
+Sex
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+F, M
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+RegStatus
+
+</td>
+
+<td style="text-align:left;">
+
+Registration status
+
+</td>
+
+<td style="text-align:left;">
+
+Registration status at practice
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+Registration code
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+RegDate
+
+</td>
+
+<td style="text-align:left;">
+
+Registration date
+
+</td>
+
+<td style="text-align:left;">
+
+Date registered at practice
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+IsDeducted
+
+</td>
+
+<td style="text-align:left;">
+
+Registration deducted
+
+</td>
+
+<td style="text-align:left;">
+
+Whether deducted (deregistered)
+
+</td>
+
+<td style="text-align:left;">
+
+logic
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+TRUE, FALSE
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+DeductionDate
+
+</td>
+
+<td style="text-align:left;">
+
+Deduction date
+
+</td>
+
+<td style="text-align:left;">
+
+Date deregistered
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+StartDate
+
+</td>
+
+<td style="text-align:left;">
+
+Event date
+
+</td>
+
+<td style="text-align:left;">
+
+Event date
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+GP
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Quick\_groups
+
+</td>
+
+<td style="text-align:left;">
+
+Cluster groups
+
+</td>
+
+<td style="text-align:left;">
+
+Event type (each group icludes several read codes)
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP / derived
+
+</td>
+
+<td style="text-align:left;">
+
+“Arterial\_thromb” , “cereb\_haem” , “CVT” , “dv\_throm”, “haem” ,
+“haem\_gigu” “haem\_rb” , “haem\_sc” , “itp” , “itp\_gen” , “not
+relevant” , “pulm\_emb” , “pv\_throm” , “sub\_arach\_haem” “SVT” ,
+“th\_haem” “throm”
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+For read codes included in groupings see code library :
+<https://argoshare.is.ed.ac.uk/content/537/>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+# 11 Whole Genome Sequencing (WGS)
+
+## 11.1 Data information
+
+<table class="table table-striped" style="font-size: 10px; width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+COVID-19 genome sequencing
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Datafile
+
+</td>
+
+<td style="text-align:left;">
+
+genomic\_dataset
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Cleaned
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Data sources
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+Weekly to fortnightly
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update timestamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 11.2 Variable information
+
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
+
+<thead>
+
+<tr>
+
+<th style="text-align:left;">
+
+Name
+
+</th>
+
+<th style="text-align:left;">
+
+Label
+
+</th>
+
+<th style="text-align:left;">
+
+Description
+
+</th>
+
+<th style="text-align:left;">
+
+Type
+
+</th>
+
+<th style="text-align:left;">
+
+Data source
+
+</th>
+
+<th style="text-align:left;">
+
+Values
+
+</th>
+
+<th style="text-align:left;">
+
+Derived variable
+
+</th>
+
+<th style="text-align:left;">
+
+Derivation hierarchy
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;">
+
+EAVE\_LINKNO
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE Link Number
+
+</td>
+
+<td style="text-align:left;">
+
+Randomly assigned study index number
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+derived/assigned
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE(7)digits (e.g. EAVE1234567)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+LabSpecimenNo
+
+</td>
+
+<td style="text-align:left;">
+
+Lab number
+
+</td>
+
+<td style="text-align:left;">
+
+Lab number - links to ECOSS to find CHI (and other info)
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+query
+
+</td>
+
+<td style="text-align:left;">
+
+Full Sequence ID
+
+</td>
+
+<td style="text-align:left;">
+
+Full Sequence ID using within analysis server to allow for duplicated
+sequence in case of quality issues
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+SequenceID
+
+</td>
+
+<td style="text-align:left;">
+
+Sequence ID Number
+
+</td>
+
+<td style="text-align:left;">
+
+Sequence ID number
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Collection\_Date
+
+</td>
+
+<td style="text-align:left;">
+
+Collection date
+
+</td>
+
+<td style="text-align:left;">
+
+Date sample collected
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Sequencing\_Date
+
+</td>
+
+<td style="text-align:left;">
+
+Sequencing date
+
+</td>
+
+<td style="text-align:left;">
+
+Date sample sequenced
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Alignment\_Date
+
+</td>
+
+<td style="text-align:left;">
+
+Alignment date
+
+</td>
+
+<td style="text-align:left;">
+
+The date the sequence is first available to PHS for analysis (used for
+sample tracking and calculating turn around times)
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+adm2
+
+</td>
+
+<td style="text-align:left;">
+
+County of patient
+
+</td>
+
+<td style="text-align:left;">
+
+County level based on patient’s outer postcode
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+HealthBoard
+
+</td>
+
+<td style="text-align:left;">
+
+Healthboard of patient
+
+</td>
+
+<td style="text-align:left;">
+
+Healthboard as extracted from ECOSS. Typically based on residential
+postcode if present, otherwise, uses CHI seeding to determine
+heathboard.
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+VariantofInterest
+
+</td>
+
+<td style="text-align:left;">
+
+Variant of interest
+
+</td>
+
+<td style="text-align:left;">
+
+whether VOC/VOI or not
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+VariantShorthand
+
+</td>
+
+<td style="text-align:left;">
+
+Variance shorthand
+
+</td>
+
+<td style="text-align:left;">
+
+seems incomplete? - better to use lineage
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+VariantCalling
+
+</td>
+
+<td style="text-align:left;">
+
+Variant calling
+
+</td>
+
+<td style="text-align:left;">
+
+Based on the PHE VUI/VOC genomic definition, there are thresholds within
+number of mutation / deletions present within your sequence that match
+the profile. HR-LQG is high risk low quality.
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+ref\_count
+
+</td>
+
+<td style="text-align:left;">
+
+Counts of reference bases
+
+</td>
+
+<td style="text-align:left;">
+
+Counts of reference bases (not mutations)
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+alt\_count
+
+</td>
+
+<td style="text-align:left;">
+
+Counts of mutations
+
+</td>
+
+<td style="text-align:left;">
+
+Counts of mutations (given that the mutation is an expected one within
+the VUI/VOC genomic profile)
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+other\_count
+
+</td>
+
+<td style="text-align:left;">
+
+Other counts
+
+</td>
+
+<td style="text-align:left;">
+
+Counts of bases that are not reference or expected mutations
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Ambiguous
+
+</td>
+
+<td style="text-align:left;">
+
+Counts of ambiguous bases
+
+</td>
+
+<td style="text-align:left;">
+
+Counts of bases which are ambiguous (typically due to low sequencing
+quality)
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+aa.S.L452R
+
+</td>
+
+<td style="text-align:left;">
+
+Specific site mutation
+
+</td>
+
+<td style="text-align:left;">
+
+Refers to specific site mutations wt = wild type, other letters are the
+mutation seen at this site. So L452R means that a site 452 you normally
+see the amino acid L, but the mutation of interest has an R in that
+site. Amb means ambiguous.
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+aa.S.E484K
+
+</td>
+
+<td style="text-align:left;">
+
+Specific site mutation
+
+</td>
+
+<td style="text-align:left;">
+
+see above
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+aa.S.G446V
+
+</td>
+
+<td style="text-align:left;">
+
+Specific site mutation
+
+</td>
+
+<td style="text-align:left;">
+
+see above
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Lineage
+
+</td>
+
+<td style="text-align:left;">
+
+Lineage
+
+</td>
+
+<td style="text-align:left;">
+
+Lineage (if applicable) in format e.g. B.1.1.7
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Lineage\_version
+
+</td>
+
+<td style="text-align:left;">
+
+Lineage version
+
+</td>
+
+<td style="text-align:left;">
+
+Date lineages last defined/assigned (as lineage deifnintion can change
+over time)
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+WGS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+# 12 EAVE weights
+
+## 12.1 Data information
+
+<table class="table table-striped" style="font-size: 10px; width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Datafile
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Data sources
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update timestamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 12.2 Variable information
+
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
+
+<thead>
+
+<tr>
+
+<th style="text-align:left;">
+
+Name
+
+</th>
+
+<th style="text-align:left;">
+
+Label
+
+</th>
+
+<th style="text-align:left;">
+
+Description
+
+</th>
+
+<th style="text-align:left;">
+
+Type
+
+</th>
+
+<th style="text-align:left;">
+
+Data source
+
+</th>
+
+<th style="text-align:left;">
+
+Values
+
+</th>
+
+<th style="text-align:left;">
+
+Derived variable
+
+</th>
+
+<th style="text-align:left;">
+
+Derivation hierarchy
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;">
+
+EAVE\_LINKNO
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE Link Number
+
+</td>
+
+<td style="text-align:left;">
+
+Randomly assigned study index number
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+derived/assigned
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE(7)digits (e.g. EAVE1234567)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+eave\_weight
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE II weight
+
+</td>
+
+<td style="text-align:left;">
+
+Weight assigned to individual person based on NRS mid-year estimates
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+<td style="text-align:left;">
+
+derived
+
+</td>
+
+<td style="text-align:left;">
+
+0-1
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+# 13 Demographic endpoints
+
+## 13.1 Data information
+
+<table class="table table-striped" style="font-size: 10px; width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Summary of all outcomes and baseline characteristics
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Datafile
+
+</td>
+
+<td style="text-align:left;">
+
+Cohort\_Demog\_Endpoints\_Dates.rds or
+Cohort\_Demog\_Endpoints\_Times.rds
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Derived
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Data sources
+
+</td>
+
+<td style="text-align:left;">
+
+GP data, ECOSS, RAPID, NRS deaths, SICSAG
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+Weekly to fortnightly
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update timestamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 13.2 Variable information
+
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
+
+<thead>
+
+<tr>
+
+<th style="text-align:left;">
+
+Name
+
+</th>
+
+<th style="text-align:left;">
+
+Label
+
+</th>
+
+<th style="text-align:left;">
+
+Description
+
+</th>
+
+<th style="text-align:left;">
+
+Type
+
+</th>
+
+<th style="text-align:left;">
+
+Data source
+
+</th>
+
+<th style="text-align:left;">
+
+Values
+
+</th>
+
+<th style="text-align:left;">
+
+Derived variable
+
+</th>
+
+<th style="text-align:left;">
+
+Derivation hierarchy
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;">
+
+EAVE\_LINKNO
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE Link Number
+
+</td>
+
+<td style="text-align:left;">
+
+Randomly assigned study index number
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+derived/assigned
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE(7)digits (e.g. EAVE1234567)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Sex
+
+</td>
+
+<td style="text-align:left;">
+
+Sex
+
+</td>
+
+<td style="text-align:left;">
+
+Sex
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP data
+
+</td>
+
+<td style="text-align:left;">
+
+F, M
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+ageYear
+
+</td>
+
+<td style="text-align:left;">
+
+Age
+
+</td>
+
+<td style="text-align:left;">
+
+Age as individual year
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+<td style="text-align:left;">
+
+GP data
+
+</td>
+
+<td style="text-align:left;">
+
+0-100
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+simd2020\_sc\_quintile
+
+</td>
+
+<td style="text-align:left;">
+
+SIMD Quintile (2020)
+
+</td>
+
+<td style="text-align:left;">
+
+Scottish Index of Multiple Deprivation Quintile (2020)
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP data
+
+</td>
+
+<td style="text-align:left;">
+
+1 - High, 2, 3, 4, 5 - Low
+
+</td>
+
+<td style="text-align:left;">
+
+Yes
+
+</td>
+
+<td style="text-align:left;">
+
+Postcode to SIMD quintile
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+DataZone
+
+</td>
+
+<td style="text-align:left;">
+
+Data Zone
+
+</td>
+
+<td style="text-align:left;">
+
+Data Zone
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP data
+
+</td>
+
+<td style="text-align:left;">
+
+Data zone codes
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+ur6\_2016\_name
+
+</td>
+
+<td style="text-align:left;">
+
+Urban Rural Index (2016)
+
+</td>
+
+<td style="text-align:left;">
+
+Urban Rural Index (2016)
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP data
+
+</td>
+
+<td style="text-align:left;">
+
+1 Large Urban Area, 2 Other Urban Areas, 3 Accessible Small Towns, 4
+Remote Small Towns, 5 Accessible Rural, 6 Remote Rural
+
+</td>
+
+<td style="text-align:left;">
+
+Yes
+
+</td>
+
+<td style="text-align:left;">
+
+Postcode to UR
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+HealthBoard
+
+</td>
+
+<td style="text-align:left;">
+
+NHS Scotland health board
+
+</td>
+
+<td style="text-align:left;">
+
+NHS Scotland health board
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+GP data
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+Hospital
+
+</td>
+
+<td style="text-align:left;">
+
+NHS facility of test
+
+</td>
+
+<td style="text-align:left;">
+
+Location where COVID test took place (NHS Facility)
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+SpecimenDate
+
+</td>
+
+<td style="text-align:left;">
+
+Speciment date
+
+</td>
+
+<td style="text-align:left;">
+
+Date of COVID-19 test
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+OriginalOrganism
+
+</td>
+
+<td style="text-align:left;">
+
+Test result (formal)
+
+</td>
+
+<td style="text-align:left;">
+
+Result of COVID-19 test (formal)
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS
+
+</td>
+
+<td style="text-align:left;">
+
+Coronavirus 2019-nCoV,Coronavirus 2019-nCoV negative
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+result
+
+</td>
+
+<td style="text-align:left;">
+
+Test result
+
+</td>
+
+<td style="text-align:left;">
+
+Result of COVID-19 test
+
+</td>
+
+<td style="text-align:left;">
+
+logic
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS
+
+</td>
+
+<td style="text-align:left;">
+
+0, 1
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+death28
+
+</td>
+
+<td style="text-align:left;">
+
+Death with 28 days of test
+
+</td>
+
+<td style="text-align:left;">
+
+Indicator if individual died within 28 days of COVID-19 test
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS, NRS deaths
+
+</td>
+
+<td style="text-align:left;">
+
+0, 1
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+SubLab
+
+</td>
+
+<td style="text-align:left;">
+
+Sub Lab
+
+</td>
+
+<td style="text-align:left;">
+
+Location where sample processed (lab code)
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+NRS.Date.Death
+
+</td>
+
+<td style="text-align:left;">
+
+Date of death
+
+</td>
+
+<td style="text-align:left;">
+
+Date of death
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+NRS deaths
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+NRS.Reg.Date
+
+</td>
+
+<td style="text-align:left;">
+
+Date of death registered
+
+</td>
+
+<td style="text-align:left;">
+
+Date of death registered
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+NRS deaths
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+is.case
+
+</td>
+
+<td style="text-align:left;">
+
+COVID-19 case
+
+</td>
+
+<td style="text-align:left;">
+
+Indicator if positive COVID case
+
+</td>
+
+<td style="text-align:left;">
+
+logic
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS
+
+</td>
+
+<td style="text-align:left;">
+
+0, 1
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+death\_covid
+
+</td>
+
+<td style="text-align:left;">
+
+COVID death
+
+</td>
+
+<td style="text-align:left;">
+
+Indicator if death was caused by COVID-19
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+<td style="text-align:left;">
+
+NRS deaths
+
+</td>
+
+<td style="text-align:left;">
+
+0, 1
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+covid\_cod
+
+</td>
+
+<td style="text-align:left;">
+
+COVID as any cause of death
+
+</td>
+
+<td style="text-align:left;">
+
+COVID as any cause of death
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+<td style="text-align:left;">
+
+NRS deaths
+
+</td>
+
+<td style="text-align:left;">
+
+0, 1
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+DATE\_OF\_DEATH
+
+</td>
+
+<td style="text-align:left;">
+
+Date of death
+
+</td>
+
+<td style="text-align:left;">
+
+Date of death
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+NRS deaths
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+icu\_death
+
+</td>
+
+<td style="text-align:left;">
+
+Died in ICU
+
+</td>
+
+<td style="text-align:left;">
+
+Indicator if individual died in ICU
+
+</td>
+
+<td style="text-align:left;">
+
+logic
+
+</td>
+
+<td style="text-align:left;">
+
+SICSAG, NRS deaths
+
+</td>
+
+<td style="text-align:left;">
+
+0, 1
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+date\_icu\_death
+
+</td>
+
+<td style="text-align:left;">
+
+Date of ICU death
+
+</td>
+
+<td style="text-align:left;">
+
+Date of ICU death
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+SICSAG, NRS deaths
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+hosp\_covid
+
+</td>
+
+<td style="text-align:left;">
+
+Hospitalised with COVID
+
+</td>
+
+<td style="text-align:left;">
+
+Indicator if individual was hospitalised with COVID-19
+
+</td>
+
+<td style="text-align:left;">
+
+logic
+
+</td>
+
+<td style="text-align:left;">
+
+RAPID
+
+</td>
+
+<td style="text-align:left;">
+
+0, 1
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+date\_hosp\_covid
+
+</td>
+
+<td style="text-align:left;">
+
+Date of COVID-19 hospital admission
+
+</td>
+
+<td style="text-align:left;">
+
+Date of hospital admission for COVID-19
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+RAPID
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+days\_to\_death
+
+</td>
+
+<td style="text-align:left;">
+
+Days from positive test to death
+
+</td>
+
+<td style="text-align:left;">
+
+Days from positive test to death
+
+</td>
+
+<td style="text-align:left;">
+
+numeric
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS, NRS deaths
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+# 14 Previous tests
+
+## 14.1 Data information
+
+<table class="table table-striped" style="font-size: 10px; width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Individuals tested for COVID-19 with a summary of their results
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Datafile
+
+</td>
+
+<td style="text-align:left;">
+
+Tests.rds
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Cleaned
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Data sources
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+Weekly to fortnightly
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update timestamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 14.2 Variable information
+
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
+
+<thead>
+
+<tr>
+
+<th style="text-align:left;">
+
+Name
+
+</th>
+
+<th style="text-align:left;">
+
+Label
+
+</th>
+
+<th style="text-align:left;">
+
+Description
+
+</th>
+
+<th style="text-align:left;">
+
+Type
+
+</th>
+
+<th style="text-align:left;">
+
+Data source
+
+</th>
+
+<th style="text-align:left;">
+
+Values
+
+</th>
+
+<th style="text-align:left;">
+
+Derived variable
+
+</th>
+
+<th style="text-align:left;">
+
+Derivation hierarchy
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;">
+
+EAVE Link Number
+
+</td>
+
+<td style="text-align:left;">
+
+Randomly assigned study index number
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+derived
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE(7)digits (e.g. EAVE1234567)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+n\_tests
+
+</td>
+
+<td style="text-align:left;">
+
+Number of COVID tests
+
+</td>
+
+<td style="text-align:left;">
+
+Number of COVID tests
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+n\_pos
+
+</td>
+
+<td style="text-align:left;">
+
+Number of positive COVID tests
+
+</td>
+
+<td style="text-align:left;">
+
+Number of positive COVID tests
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+n\_neg
+
+</td>
+
+<td style="text-align:left;">
+
+Number of negative COVID tests
+
+</td>
+
+<td style="text-align:left;">
+
+Number of negative COVID tests
+
+</td>
+
+<td style="text-align:left;">
+
+integer
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+# 15 Previous positive tests
+
+## 15.1 Data information
+
+<table class="table table-striped" style="font-size: 10px; width: auto !important; ">
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Description
+
+</td>
+
+<td style="text-align:left;">
+
+Individuals with a positive COVID-19 test
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Datafile
+
+</td>
+
+<td style="text-align:left;">
+
+Positive\_Tests.rds
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Type
+
+</td>
+
+<td style="text-align:left;">
+
+Cleaned
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Data sources
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Scripts
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update frequency
+
+</td>
+
+<td style="text-align:left;">
+
+Weekly to fortnightly
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Update timestamps
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;width: 1.5in; font-weight: bold;">
+
+Analyses used
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## 15.2 Variable information
+
+<table class="table table-striped" style="font-size: 7px; margin-left: auto; margin-right: auto;">
+
+<thead>
+
+<tr>
+
+<th style="text-align:left;">
+
+Name
+
+</th>
+
+<th style="text-align:left;">
+
+Label
+
+</th>
+
+<th style="text-align:left;">
+
+Description
+
+</th>
+
+<th style="text-align:left;">
+
+Type
+
+</th>
+
+<th style="text-align:left;">
+
+Data source
+
+</th>
+
+<th style="text-align:left;">
+
+Values
+
+</th>
+
+<th style="text-align:left;">
+
+Derived variable
+
+</th>
+
+<th style="text-align:left;">
+
+Derivation hierarchy
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;">
+
+EAVE Link Number
+
+</td>
+
+<td style="text-align:left;">
+
+Randomly assigned study index number
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+character
+
+</td>
+
+<td style="text-align:left;">
+
+derived
+
+</td>
+
+<td style="text-align:left;">
+
+EAVE(7)digits (e.g. EAVE1234567)
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+specimen\_date
+
+</td>
+
+<td style="text-align:left;">
+
+Speciment date
+
+</td>
+
+<td style="text-align:left;">
+
+Date of positive COVID-19 test
+
+</td>
+
+<td style="text-align:left;">
+
+date
+
+</td>
+
+<td style="text-align:left;">
+
+ECOSS
+
+</td>
+
+<td style="text-align:left;">
+
+Date
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+<td style="text-align:left;">
+
+NA
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+# 16 Supplementary Information
 
 All supplementary information are stored in the [Supplementary GitHub
 folder](https://github.com/EAVE-II/EAVE-II-data-dictionary/tree/main/data_dictionary/supplementary).
