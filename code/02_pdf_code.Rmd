@@ -1,4 +1,9 @@
 ---
+params: 
+  sub_title:
+    input: text
+    label: Sub Title
+    value: 'my_Sub_Title_and_File_Name'
 title: "EAVE II Data Dictionary"
 author: "EAVE II Analysts"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
@@ -8,6 +13,16 @@ output:
     toc_depth: 1
     number_sections: true
 geometry: "left=1.5cm,right=1.5cm,top=2cm,bottom=2cm"
+knit: (
+  function(inputFile, encoding) { 
+
+    pSubTitle <- 'EAVEII_data_dictionary.pdf'
+
+    rmarkdown::render( 
+      input       = inputFile, 
+      encoding    = encoding, 
+      params      = list(sub_title = pSubTitle),      
+      output_file = file.path(here::here(), "data_dictionary", pSubTitle))})
 
 ---
 
